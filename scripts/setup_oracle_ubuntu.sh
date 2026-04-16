@@ -59,8 +59,10 @@ ufw --force enable || true
 echo
 echo "Setup complete. Next steps:"
 echo "1) sudo nano $ENV_FILE"
-echo "1a) sudo systemctl daemon-reload"
-echo "1b) sudo systemctl restart crypto-dip-bot"
+# update .env file
+echo "1a) sudo cp .env /etc/crypto-dip-bot.env"
+echo "1b) sudo systemctl daemon-reload"
+echo "1c) sudo systemctl restart crypto-dip-bot"
 echo "2) sudo systemctl enable --now crypto-dip-bot"
 echo "2a) sudo systemctl status crypto-dip-bot --no-pager"
 # follow logs in real time
