@@ -184,7 +184,7 @@ MOMENTUM_FEE_BUFFER    = 0.10         # Gebühren-Buffer für Momentum (~0.1% RT
 # ── MA-DIP-Konstanten ──────────────────────────────────────────────────────────
 MADIP_TP_PCT     = 1.5   # Take-Profit: +1.5%  (v23: optimiert via 6J-Sweep, war 1.0%)
 MADIP_MA_BARS    = 30    # MA über letzte 30 geschlossene 1m-Bars
-MADIP_DROP_PCT   = 5.0   # Einstieg wenn Preis > 5% unter MA  (v23: war 4.0%)
+MADIP_DROP_PCT   = 4.0   # Einstieg wenn Preis > 5% unter MA  (v23: war 4.0%)
 MADIP_MAX_HOLD_M = 240   # Time-Stop: 240 Minuten
 
 # v18: BTC 15min Makro-Filter für MADIP

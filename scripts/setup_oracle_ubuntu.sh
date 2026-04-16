@@ -63,6 +63,9 @@ echo "1a) sudo systemctl daemon-reload"
 echo "1b) sudo systemctl restart crypto-dip-bot"
 echo "2) sudo systemctl enable --now crypto-dip-bot"
 echo "2a) sudo systemctl status crypto-dip-bot --no-pager"
+# follow logs in real time
 echo "3) sudo journalctl -u crypto-dip-bot -f"
-
-
+# show newest logs first
+echo "3a) sudo journalctl -r -u crypto-dip-bot"
+# search for errors
+echo "3b) sudo journalctl -u crypto-dip-bot | grep error"
