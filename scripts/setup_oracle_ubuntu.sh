@@ -71,3 +71,5 @@ echo "3) sudo journalctl -u crypto-dip-bot -f"
 echo "3a) sudo journalctl -r -u crypto-dip-bot"
 # search for errors
 echo "3b) sudo journalctl -u crypto-dip-bot | grep error"
+# optionally, stop the bot
+echo "4) sudo systemctl stop crypto-dip-bot"
